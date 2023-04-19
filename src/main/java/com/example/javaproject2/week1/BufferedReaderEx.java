@@ -8,7 +8,8 @@ public class BufferedReaderEx {
         InputStreamReader is = new InputStreamReader(System.in);
         BufferedReader br = new BufferedReader(is);
 
-        String line = br.readLine();
-        System.out.println(line);
+        System.out.println(br.readLine());
+        System.out.println(br.readLine());
+
     }
 }
