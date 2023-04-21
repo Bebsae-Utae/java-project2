@@ -14,7 +14,10 @@ public class SpaceInvader {
     public static void main(String[] args) {
         SpaceInvader simv = new SpaceInvader();
         simv.moveLeft();
-        simv.moveLeft();
         simv.moveRight();
+        simv.moveRight();
+        simv.moveRight();
+        simv.moveRight();
+        System.out.printf("최종위치: %d", simv.location);
     }
 }
