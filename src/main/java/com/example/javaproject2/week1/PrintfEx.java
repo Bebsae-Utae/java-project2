@@ -9,5 +9,6 @@ public class PrintfEx {
     public static void main(String[] args) {
         PrintfEx printfEx = new PrintfEx();
         printfEx.print();
+        printfEx.print();
     }
 }
