@@ -13,5 +13,9 @@ public class BooleanEx {
         System.out.println(result1);
         System.out.println(result2);
 
+        int age = 37;
+        boolean isAdult = age >= 18;
+        System.out.println("isAdult = " + isAdult);
+
     }
 }
